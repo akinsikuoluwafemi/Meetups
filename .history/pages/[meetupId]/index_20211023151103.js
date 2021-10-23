@@ -4,15 +4,12 @@ import Head from 'next/head';
 
 const MeetUpDetails = ({ meetupData }) => {
   
-  
+
   return (
     <>
       <Head>
-        <title>{meetupData.title}</title>
-        <meta
-          name="description"
-          content={meetupData.description}
-        ></meta>
+        <title>{ meetupData.title}</title>
+        
       </Head>
 
       <MeetupDetail

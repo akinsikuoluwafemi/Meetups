@@ -8,10 +8,10 @@ const MeetUpDetails = ({ meetupData }) => {
   return (
     <>
       <Head>
-        <title>{meetupData.title}</title>
+        <title>{ meetupData.title}</title>
         <meta
           name="description"
-          content={meetupData.description}
+          content=""
         ></meta>
       </Head>
 

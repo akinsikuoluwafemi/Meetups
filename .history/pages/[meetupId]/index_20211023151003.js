@@ -3,15 +3,13 @@ import MeetupDetail from "../../components/meetups/MeetupDetail";
 import Head from 'next/head';
 
 const MeetUpDetails = ({ meetupData }) => {
-  
-  
   return (
     <>
       <Head>
-        <title>{meetupData.title}</title>
+        <title></title>
         <meta
           name="description"
-          content={meetupData.description}
+          content=""
         ></meta>
       </Head>
 

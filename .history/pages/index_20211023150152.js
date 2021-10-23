@@ -28,7 +28,7 @@ export default function HomePage(props) {
     <>
       <Head>
         <title>React Meetups</title>
-        <meta name="description" content="Browsing list of react meetups to attend"></meta>
+        <meta></meta>
       </Head>
       <MeetupList meetups={props.meetups} />
     </>

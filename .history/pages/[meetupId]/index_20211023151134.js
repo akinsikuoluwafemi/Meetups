@@ -11,7 +11,7 @@ const MeetUpDetails = ({ meetupData }) => {
         <title>{meetupData.title}</title>
         <meta
           name="description"
-          content={meetupData.description}
+          content={met}
         ></meta>
       </Head>
 
